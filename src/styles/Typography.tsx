@@ -41,11 +41,31 @@ export const StyledHeadline = styled.p`
      font-size: 1.5rem;
      font-family: var(--Font-Primary);
 `
+
+export const StyledClickText = styled.p`
+     font-weight: 500;
+     color: var(--color-gray-200);
+     font-size: 1.5rem;
+     font-family: var(--Font-Primary);
+     cursor: pointer;
+
+     &:hover {
+    color: var(--font-gray-100);
+    transition: background 0.2s ease;
+}
+`
+
 export const StyledHeadlinePower = styled.a`
      font-weight: 500;
      color: var(--color-tertiary);
      font-size: 2.0rem;
      font-family: var(--Font-Primary);
+     cursor: pointer;
+
+     &:hover {
+    color: var(--color-instagram);
+    transition: background 0.2s ease;
+  }
 `
 
 export const StyledText1 = styled.p`

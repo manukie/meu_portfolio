@@ -40,6 +40,10 @@ export const Dashboard = () => {
     window.open(url, '_blank')
   };
 
+  const clickRepos = () => {
+    const url = 'https://github.com/manukie?tab=repositories';
+    window.open(url, '_blank')
+  };
 
     return (
         <>
@@ -69,7 +73,7 @@ export const Dashboard = () => {
                   all my projects and technologies</StyledHeadline>
 
                 <AboutProjects>
-                  <StyledButton1>See Projects</StyledButton1>
+                  <StyledButton1 onClick={clickRepos}>See Projects</StyledButton1>
                   <StyledButton4 onClick={clickGithub}><FaGithub /></StyledButton4>
                 </AboutProjects>
 

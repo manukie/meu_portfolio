@@ -1,5 +1,5 @@
 import GlobalStyle from "../../styles/GlobalStyles"
-import { StyledText1, StyledTitle4, StyledTitle1, StyledTitlePower, StyledTitle3, StyledText2, StyledText3, StyledHeadline } from "../../styles/Typography"
+import { StyledText1, StyledTitle4, StyledTitle1, StyledTitlePower, StyledTitle3, StyledText2, StyledText3, StyledClickText } from "../../styles/Typography"
 import { PhoneIconDiv, LinkedinIconDiv, EmailIconDiv, ContentDiv, ContactTextDiv, ContactCardDiv, StyledHeader, HeaderButtons, StyledFooter, AboutMeFooter, FooterText, FooterIcons, InstagramDiv, LinkedinDiv,  PageContent, ContactCard, GithubDiv } from "./styles"
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -65,7 +65,7 @@ export const Contacts = () => {
                 <ContentDiv>
                   <StyledTitle4>Meu Celular</StyledTitle4>
                   <StyledText3>Meu celular para contato.</StyledText3>
-                  <StyledHeadline>Entrar em contato</StyledHeadline>
+                  <StyledClickText>Entrar em contato</StyledClickText>
                 </ContentDiv>
               </ContactCard>
 
@@ -76,7 +76,7 @@ export const Contacts = () => {
                 <ContentDiv>
                   <StyledTitle4>Meu E-Mail</StyledTitle4>
                   <StyledText3>Meu E-Mail para contato.</StyledText3>
-                  <StyledHeadline>Entrar em contato</StyledHeadline>
+                  <StyledClickText>Entrar em contato</StyledClickText>
                 </ContentDiv>
               </ContactCard>
 
@@ -87,7 +87,7 @@ export const Contacts = () => {
                 <ContentDiv>
                   <StyledTitle4>Meu Linkedin</StyledTitle4>
                   <StyledText3>Minha rede profissional.</StyledText3>
-                  <StyledHeadline onClick={clickLinkedin}>Entrar em contato</StyledHeadline>
+                  <StyledClickText onClick={clickLinkedin}>Entrar em contato</StyledClickText>
                 </ContentDiv>
               </ContactCard>
             </ContactCardDiv>

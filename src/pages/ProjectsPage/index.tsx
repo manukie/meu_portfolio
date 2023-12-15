@@ -35,8 +35,12 @@ export const Projects = () => {
       const url = 'https://github.com/manukie';
       window.open(url, '_blank')
     };
-  
 
+    const clickKenzie = () => {
+      const url = 'https://kenzie.com.br/quem-somos';
+      window.open(url, '_blank')
+    };
+  
     return (
         <>
           <GlobalStyle />
@@ -55,7 +59,7 @@ export const Projects = () => {
 
               <InfoProjectsDiv>
                 <StyledTitle1>My Projects</StyledTitle1>
-                <StyledHeadline>Projects created at <StyledHeadlinePower>Kenzie Academy</StyledHeadlinePower></StyledHeadline>
+                <StyledHeadline>Projects created at <StyledHeadlinePower onClick={clickKenzie}>Kenzie Academy</StyledHeadlinePower></StyledHeadline>
               </InfoProjectsDiv>
 
               <ProjectsCardDiv>
