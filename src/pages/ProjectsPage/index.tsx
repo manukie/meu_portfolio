@@ -1,5 +1,5 @@
 import GlobalStyle from "../../styles/GlobalStyles"
-import { StyledText1, StyledTitle1, StyledHeadline, StyledHeadlinePower, StyledText2, StyledInfoText, StyledTitle3 } from "../../styles/Typography"
+import { StyledText1, StyledTitle1, StyledHeadlinePower, StyledText2, StyledInfoText, StyledTitle3, StyledHeadline2 } from "../../styles/Typography"
 import { InfoProjectsDiv, ProjectsCardDiv, ProjectInfoBox, ProjectAccessBox, ProjectCard, ProjectRedirectBox, StyledHeader, HeaderButtons, StyledFooter, AboutMeFooter, FooterText, FooterIcons, InstagramDiv, LinkedinDiv, GithubDiv, PageContent, ProjectsDiv } from "./styles"
 import { FaGithub } from "react-icons/fa";
 import { IoArrowRedoSharp } from "react-icons/io5";
@@ -58,8 +58,8 @@ export const Projects = () => {
             <ProjectsDiv>
 
               <InfoProjectsDiv>
-                <StyledTitle1>My Projects</StyledTitle1>
-                <StyledHeadline>Projects created at <StyledHeadlinePower onClick={clickKenzie}>Kenzie Academy</StyledHeadlinePower></StyledHeadline>
+                <StyledTitle1>Meus projetos</StyledTitle1>
+                <StyledHeadline2>Projetos criados na <StyledHeadlinePower onClick={clickKenzie}>Kenzie Academy</StyledHeadlinePower></StyledHeadline2>
               </InfoProjectsDiv>
 
               <ProjectsCardDiv>
@@ -146,10 +146,9 @@ export const Projects = () => {
 
             <StyledFooter>
             <AboutMeFooter>
-              <StyledTitle1>FOTO MINHA</StyledTitle1>
               <FooterText>
-                <StyledTitle3>Thank you!</StyledTitle3>
-                <StyledText2>Follow me on my social networks and let's talk</StyledText2>
+                <StyledTitle3>Muito obrigado por visitar!</StyledTitle3>
+                <StyledText2>Me siga nas minha redes sociais para interagirmos!</StyledText2>
               </FooterText>
             </AboutMeFooter>
             <FooterIcons>

@@ -12,6 +12,8 @@ import { StyledButton1, StyledButton4, StyledButton5, StyledButton5Deactivated }
 import { useNavigate } from "react-router-dom";
 import { CiInstagram } from "react-icons/ci";
 import { FaLinkedinIn } from "react-icons/fa";
+import Foto from "../../assets/backgroundimage.jpg"
+
 
 export const Dashboard = () => {
 
@@ -63,14 +65,20 @@ export const Dashboard = () => {
               <AboutMeContent>
 
                 <NameIconDiv>
-                  <StyledText2>Hello, my name is João Emanuel</StyledText2>
+                  <StyledText2>Olá, meu nome é João Emanuel!l</StyledText2>
                 </NameIconDiv>
 
-                <StyledTitle1>I <StyledTitlePower>love</StyledTitlePower> creating and 
-                <StyledTitlePower> developing</StyledTitlePower> projects</StyledTitle1>
+                <StyledTitle1>Minha grande <StyledTitlePower>paixão</StyledTitlePower> é criar e
+                <StyledTitlePower> desenvolver</StyledTitlePower> projetos e ideias!</StyledTitle1>
 
-                <StyledHeadline>Discover here in this environment, created especially for you, 
-                  all my projects and technologies</StyledHeadline>
+                <StyledHeadline>Eu sou um programador de 20 anos que adentrou o ramo há não muito 
+                  tempo atrás, mas que o faz com um grande amor. Um amor que eu carrego desde a infância,
+                  visto que fui uma criança sempre muito conectada a tecnologia, e que desde sempre desejei
+                  entender como todo esse mundo funcionava. E bem, graças a uma grande força de vontade e
+                  constante esforço, eu finalmente cheguei aqui, numa posição onde eu trabalho com isso. E 
+                  todo dia, de pouco em pouco, eu vou aprendendo mais e mais, sempre buscando descobrir algo
+                  novo e que eu não conhecia antes.
+                </StyledHeadline>
 
                 <AboutProjects>
                   <StyledButton1 onClick={clickRepos}>See Projects</StyledButton1>
@@ -90,16 +98,15 @@ export const Dashboard = () => {
             </AboutMeSection>
 
             <BackgroundImageSection>
-              <StyledTitle1>IMAGEM AQUI</StyledTitle1>
+                <img src={Foto} alt="Imagem de programação" />
             </BackgroundImageSection>
           </PageContent>
 
           <StyledFooter>
             <AboutMeFooter>
-              <StyledTitle1>FOTO MINHA</StyledTitle1>
               <FooterText>
-                <StyledTitle3>Thank you!</StyledTitle3>
-                <StyledText2>Follow me on my social networks and let's talk</StyledText2>
+                <StyledTitle3>Muito obrigado por visitar!</StyledTitle3>
+                <StyledText2>Me siga nas minha redes sociais para interagirmos!</StyledText2>
               </FooterText>
             </AboutMeFooter>
             <FooterIcons>

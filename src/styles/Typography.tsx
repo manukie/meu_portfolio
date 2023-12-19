@@ -42,18 +42,13 @@ export const StyledHeadline = styled.p`
      font-family: var(--Font-Primary);
 `
 
-export const StyledClickText = styled.p`
+export const StyledHeadline2 = styled.p`
      font-weight: 500;
      color: var(--color-gray-200);
-     font-size: 1.5rem;
+     font-size: 1.8rem;
      font-family: var(--Font-Primary);
-     cursor: pointer;
-
-     &:hover {
-    color: var(--font-gray-100);
-    transition: background 0.2s ease;
-}
 `
+
 
 export const StyledHeadlinePower = styled.a`
      font-weight: 500;
@@ -103,6 +98,34 @@ export const StyledInfoText = styled.p`
      height: 2rem;
      text-align: center;
      background-color: var(--color-gray-400);
+     font-size: 1.6rem;
+     font-family: var(--Font-Primary);
+`
+
+export const StyledPhoneText = styled.p`
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 400;
+     color: var(--color-secondary-50);
+     background-color: var(--color-secondary);
+     width: 15rem;
+     height: 2.5rem;
+     border-radius: 1.5rem;
+     font-size: 1.6rem;
+     font-family: var(--Font-Primary);
+`
+
+export const StyledEmailText = styled.p`
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 400;
+     color: var(--color-secondary-50);
+     background-color: var(--color-instagram);
+     width: 24rem;
+     height: 2.5rem;
+     border-radius: 1.5rem;
      font-size: 1.6rem;
      font-family: var(--Font-Primary);
 `

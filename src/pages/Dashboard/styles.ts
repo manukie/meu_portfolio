@@ -112,7 +112,7 @@ export const PageContent = styled.div`
   justify-content: center;
   height: 50rem;
   background-color: var(--color-gray-500);
-  gap: 17rem;
+  gap: 7rem;
 `
 
 export const AboutMeSection = styled.div`
@@ -120,12 +120,27 @@ export const AboutMeSection = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  width: 40%;
+  margin-left: 8rem;
+  width: 48%;
 `
 
 export const BackgroundImageSection = styled.div`
-  width: 20%;
-`
+  width: 50%;
+  height: 100%;
+  overflow: hidden; 
+
+  img {
+    width: 100%;
+    height: 100%;
+    mask-image: linear-gradient(
+      to right,
+      transparent 7%,
+      black 50%, 
+      transparent 85%
+    );
+  }
+`;
+
 
 export const AboutMeContent = styled.div`
   display: flex;

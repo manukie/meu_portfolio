@@ -93,4 +93,21 @@ export const StyledButton5Deactivated = styled.p`
     user-select: none;
 `
 
+export const LinkedinButton = styled.button`
+     color: var(--color-gray-100);
+     font-size: 1.5rem;
+     font-family: var(--Font-Primary);
+     cursor: pointer;
+     background-color: var(--color-linkedin);
+     border: none;
+     width: 10rem;
+     height: 3rem;
+     border-radius: 1rem;
+
+     &:hover {
+    background-color: var(--color-tertiary-50);
+    transition: background 0.2s ease;
+}
+`
+
 
