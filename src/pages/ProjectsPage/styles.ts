@@ -110,7 +110,7 @@ export const PageContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 63rem;
+  height: 145rem;
   background-color: var(--color-gray-600);
 `
 
@@ -131,8 +131,10 @@ export const ProjectsCardDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  margin: 0 auto; 
-  max-width: 1200px; 
+  margin: 0 auto;
+  max-width: 1000px; 
+  overflow-x: auto;
+  overflow-y: auto;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -144,7 +146,7 @@ export const ProjectCard = styled.div`
   flex-direction: column;
   justify-content: start;
   gap: 1rem;
-  width: 78%;
+  width: 70%;
 `
 
 export const ProjectInfoBox = styled.div`
@@ -166,4 +168,11 @@ export const ProjectRedirectBox = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--color-gray-400);
+    border-radius: 8rem;
+    transition: background 0.2s ease;
+  }
 `

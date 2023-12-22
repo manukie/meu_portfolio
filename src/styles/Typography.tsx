@@ -14,6 +14,20 @@ export const StyledTitlePower = styled.a`
      font-family: var(--Font-Primary);
 `
 
+export const StyledTitleAlter = styled.h1`
+     font-weight: 900;
+     color: var(--color-tertiary);
+     font-size: 3.2rem;
+     font-family: var(--Font-Primary);
+`
+
+export const StyledTitlePAlter = styled.a`
+     font-weight: 900;
+     color: var(--color-gray-300);
+     font-size: 3rem;
+     font-family: var(--Font-Primary);
+`
+
 export const StyledTitle2 = styled.h2`
      font-weight: 600;
      color: var(--color-gray-100);
@@ -93,13 +107,17 @@ export const StyledText3 = styled.p`
 
 export const StyledInfoText = styled.p`
      font-weight: 400;
-     color: var(--color-gray-300);
-     width: 5rem;
+     color: var(--color-tertiary);
+     width: 9rem;
      height: 2rem;
      text-align: center;
      background-color: var(--color-gray-400);
      font-size: 1.6rem;
      font-family: var(--Font-Primary);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
 `
 
 export const StyledPhoneText = styled.p`
