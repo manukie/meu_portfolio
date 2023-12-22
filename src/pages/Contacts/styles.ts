@@ -136,8 +136,8 @@ export const PageContent = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     height: auto;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
     gap: 5rem;
   }
 `;
