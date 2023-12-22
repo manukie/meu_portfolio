@@ -7,6 +7,13 @@ export const StyledHeader = styled.header`
   align-items: center;
   background-color: var(--color-gray-600);
   height: 6rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const HeaderButtons = styled.div`
@@ -24,6 +31,15 @@ export const StyledFooter = styled.footer`
   align-items: center;
   height: 12rem;
   background-color: var(--color-gray-600);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const AboutMeFooter = styled.div`
@@ -32,6 +48,10 @@ export const AboutMeFooter = styled.div`
   justify-content: center;
   align-items: center;
   gap: 4.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const FooterText = styled.div`
@@ -113,31 +133,50 @@ export const PageContent = styled.div`
   height: 50rem;
   background-color: var(--color-gray-500);
   gap: 7rem;
-`
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+  }
+`;
 
 export const AboutMeSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  margin-left: 8rem;
-  width: 48%;
-`
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+`;
 
 export const BackgroundImageSection = styled.div`
-  width: 50%;
-  height: 100%;
-  overflow: hidden; 
+  width: 100%; 
+  height: 20rem; 
+  overflow: hidden;
 
   img {
     width: 100%;
     height: 100%;
-    mask-image: linear-gradient(
-      to right,
-      transparent 7%,
-      black 50%, 
-      transparent 85%
-    );
+    mask-image: none; 
+  }
+
+  @media (max-width: 768px) {
+    height: 0; 
+    img {
+      display: none;
+    }
   }
 `;
 
@@ -146,13 +185,20 @@ export const AboutMeContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 3rem;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
 ` 
 
 export const NameIconDiv = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 3rem;
 `
 
 export const AboutProjects = styled.div`

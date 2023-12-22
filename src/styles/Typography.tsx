@@ -5,6 +5,10 @@ export const StyledTitle1 = styled.h1`
      color: var(--color-gray-100);
      font-size: 3.2rem;
      font-family: var(--Font-Primary);
+
+     @media (max-width: 768px) {
+          font-size: 2.5rem;
+  }
 `
 
 export const StyledTitlePower = styled.a`
@@ -12,6 +16,10 @@ export const StyledTitlePower = styled.a`
      color: var(--color-primary);
      font-size: 3.2rem;
      font-family: var(--Font-Primary);
+
+     @media (max-width: 768px) {
+          font-size: 2.5rem;
+  }
 `
 
 export const StyledTitleAlter = styled.h1`

@@ -7,6 +7,13 @@ export const StyledHeader = styled.header`
   align-items: center;
   background-color: var(--color-gray-600);
   height: 6rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const HeaderButtons = styled.div`
@@ -24,6 +31,15 @@ export const StyledFooter = styled.footer`
   align-items: center;
   height: 12rem;
   background-color: var(--color-gray-600);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const AboutMeFooter = styled.div`
@@ -32,6 +48,10 @@ export const AboutMeFooter = styled.div`
   justify-content: center;
   align-items: center;
   gap: 4.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const FooterText = styled.div`
@@ -112,7 +132,15 @@ export const PageContent = styled.div`
   align-items: center;
   height: 45rem;
   background-color: var(--color-gray-500);
-`
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    gap: 5rem;
+  }
+`;
 
 export const ContactTextDiv = styled.div`
   display: flex;
@@ -120,8 +148,14 @@ export const ContactTextDiv = styled.div`
   justify-content: start;
   align-items: center;
   width: 40%;
-  gap: 3rem;
-`
+
+  @media (max-width: 768px) {
+    width: 75%;
+    align-items: center; 
+    justify-content: start;
+    margin-bottom: 4rem;
+  }
+`;
 
 export const ContactCardDiv = styled.div`
   display: flex;
@@ -129,7 +163,12 @@ export const ContactCardDiv = styled.div`
   justify-content: center;
   align-items: start; 
   gap: 5.5rem;
-`
+
+  @media (max-width: 768px) {
+    align-items: start; 
+    justify-content: center;
+  }
+`;
 
 export const ContactCard = styled.div`
   display: flex;

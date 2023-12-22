@@ -7,6 +7,13 @@ export const StyledHeader = styled.header`
   align-items: center;
   background-color: var(--color-gray-500);
   height: 6rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const HeaderButtons = styled.div`
@@ -24,6 +31,15 @@ export const StyledFooter = styled.footer`
   align-items: center;
   height: 12rem;
   background-color: var(--color-gray-500);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 3rem;
+    padding: 3rem;
+  }
 `
 
 export const AboutMeFooter = styled.div`
@@ -32,8 +48,11 @@ export const AboutMeFooter = styled.div`
   justify-content: center;
   align-items: center;
   gap: 4.5rem;
-`
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`
 export const FooterText = styled.div`
   display: flex;
   flex-direction: column;
@@ -110,7 +129,7 @@ export const PageContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 145rem;
+  height: auto;
   background-color: var(--color-gray-600);
 `
 
@@ -119,12 +138,23 @@ export const ProjectsDiv = styled.div`
   flex-direction: column;
   justify-content: start;
   gap: 6rem;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 export const InfoProjectsDiv = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.5rem; 
+  margin-top: 3rem;
+  
+  @media (max-width: 768px) {
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 export const ProjectsCardDiv = styled.div`
@@ -135,10 +165,13 @@ export const ProjectsCardDiv = styled.div`
   max-width: 1000px; 
   overflow-x: auto;
   overflow-y: auto;
+  margin-bottom: 5rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding-left: 2rem;
   }
+
 `;
 
 export const ProjectCard = styled.div`

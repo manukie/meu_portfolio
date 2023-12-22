@@ -275,8 +275,8 @@ export const Projects = () => {
                     </ProjectInfoBox>
                     <StyledText2>Essa é uma API que faz o controle de usuários e cursos em que esses 
                       usuários serão matriculados. Essa API também tem um controle de acessos, onde 
-                      alguns recursos podem ser acessados apenas por usuários logados na aplicação, e 
-                      outros apenas por usuários que possuem permissões de administrador.
+                      alguns recursos podem ser acessados apenas por usuários que possuem certas 
+                      permissões.
                     </StyledText2>
                     <ProjectAccessBox>
                       <ProjectRedirectBox onClick={clickCoursesApiGithub}>
