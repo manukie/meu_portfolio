@@ -151,7 +151,7 @@ export const AboutMeSection = styled.div`
   justify-content: start;
   margin-left: 2rem;
   margin-right: 2rem;
-  width: 100%;
+  width: 60%;
   text-align: center;
 
   @media (max-width: 768px) {
@@ -162,15 +162,19 @@ export const AboutMeSection = styled.div`
 `;
 
 export const BackgroundImageSection = styled.div`
-  width: 100%; 
-  height: 20rem; 
-  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; 
 
   img {
     width: 100%;
     height: 100%;
-    mask-image: none; 
-  }
+    mask-image: linear-gradient(
+      to right,
+      transparent 7%,
+      black 50%, 
+      transparent 85%
+    );
 
   @media (max-width: 768px) {
     height: 0; 
@@ -178,6 +182,7 @@ export const BackgroundImageSection = styled.div`
       display: none;
     }
   }
+}
 `;
 
 
@@ -185,7 +190,8 @@ export const AboutMeContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 3rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
