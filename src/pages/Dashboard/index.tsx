@@ -65,13 +65,13 @@ export const Dashboard = () => {
               <AboutMeContent>
 
                 <NameIconDiv>
-                  <StyledText2>Olá, meu nome é João Emanuel!l</StyledText2>
+                  <StyledText2>Olá, meu nome é João Emanuel!</StyledText2>
                 </NameIconDiv>
 
                 <StyledTitle1>Minha grande <StyledTitlePower>paixão</StyledTitlePower> é criar e
                 <StyledTitlePower> desenvolver</StyledTitlePower> projetos e ideias!</StyledTitle1>
 
-                <StyledHeadline>Eu sou um programador de 20 anos que adentrou o ramo há não muito 
+                <StyledHeadline>Eu sou um programador de 20 anos que adentrou a área há não muito 
                   tempo atrás, mas que o faz com um grande amor. Um amor que eu carrego desde a infância,
                   visto que fui uma criança sempre muito conectada a tecnologia, e que desde sempre desejei
                   entender como todo esse mundo funcionava. E bem, graças a uma grande força de vontade e
