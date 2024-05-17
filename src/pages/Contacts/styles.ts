@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   justify-content: space-around;
   align-items: center;
   background-color: var(--color-gray-600);
-  height: 6rem;
+  height: 10vh;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -29,7 +29,7 @@ export const StyledFooter = styled.footer`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 12rem;
+  height: 14vh;
   background-color: var(--color-gray-600);
 
   @media (max-width: 768px) {
@@ -130,7 +130,7 @@ export const PageContent = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 45rem;
+  height: 76vh;
   background-color: var(--color-gray-500);
 
   @media (max-width: 768px) {
